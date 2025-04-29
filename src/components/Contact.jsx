@@ -10,8 +10,8 @@ const Contact = () => {
     <div className="container">
       <div className="row gy-4">
         <div className="col-lg-4">
-          <div className="info-item"><h3>Address</h3><p>12 Kingsway, London, UK</p></div>
-          <div className="info-item"><h3>Call Us</h3><p>0800 123 4567</p></div>
+          <div className="info-item"><h3>Address</h3><p>19 Stott Gardens, Cambridge, Cambridgeshire UK</p></div>
+          <div className="info-item"><h3>Call Us</h3><p>07867211695</p></div>
           <div className="info-item"><h3>Email Us</h3><p><a href="mailto:hello@takadigital.co.uk">hello@takadigital.co.uk</a></p></div>
         </div>
         <div className="col-lg-8">
