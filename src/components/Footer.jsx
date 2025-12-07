@@ -5,7 +5,7 @@ const Footer = () => {
     <footer id="footer" className="footer dark-background">
       <div className="container">
         <h3 className="sitename">TakaDigital</h3>
-        <p>Let’s build your financial future. Digitally. Together.</p>
+        <p>Let’s build the next generation of intelligent, quantum-powered systems. Together.</p>
         <div className="container">
           <div className="copyright">
             <span>Copyright</span> <strong className="px-1 sitename">TakaDigital</strong> <span>All Rights Reserved</span>
