@@ -11,6 +11,7 @@ import './assets/vendor/swiper/swiper-bundle.min.css';
 import './assets/css/main.css';
 
 import favicon from './assets/img/favicon.png';
+import logo from './assets/img/logo.png';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -26,7 +27,6 @@ function App() {
   const sitename = "Taka Digital";
 
   useEffect(() => {
-
     document.title = sitename;
 
     const setFavicon = (iconPath) => {
@@ -41,11 +41,10 @@ function App() {
 
     setFavicon(favicon);
 
-    // Inject Bootstrap Icons CSS
-  const bootstrapIconsLink = document.createElement('link');
-  bootstrapIconsLink.rel = 'stylesheet';
-  bootstrapIconsLink.href = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css';
-  document.head.appendChild(bootstrapIconsLink);
+    const bootstrapIconsLink = document.createElement('link');
+    bootstrapIconsLink.rel = 'stylesheet';
+    bootstrapIconsLink.href = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css';
+    document.head.appendChild(bootstrapIconsLink);
 
     AOS.init({
       duration: 1000,
@@ -56,7 +55,7 @@ function App() {
 
   return (
     <>
-      <Header sitename={sitename} />
+      <Header sitename={sitename} logo={logo} />
       <main className="main">
         <Hero />
         <About />
