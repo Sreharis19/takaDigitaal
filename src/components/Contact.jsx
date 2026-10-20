@@ -17,7 +17,7 @@ const Contact = () => {
           </p>
           <ul className="contact-info">
             <li>
-              <LuMapPin /> 31 Keynes Rd, Cambridge, Cambridgeshire, UK, CB5 8PP
+              <LuMapPin /> 16 Peverel Close, Cambridge, England, CB5 8RW
             </li>
             <li>
               <LuPhone /> +44 7867 211695
