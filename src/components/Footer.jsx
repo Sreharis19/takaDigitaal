@@ -22,14 +22,13 @@ const Footer = ({ logo, sitename }) => (
         <h4>Contact</h4>
         <ul>
           <li>16 Peverel Close, Cambridge, CB5 8RW, UK</li>
-          <li><a href="tel:+447867211695">+44 7867 211695</a></li>
           <li><a href="mailto:hello@takadigital.co.uk">hello@takadigital.co.uk</a></li>
         </ul>
       </div>
     </div>
     <div className="wrap footer-base">
       <small>© {new Date().getFullYear()} Taka Digital Limited. Registered in England, company no. 15046292 (incorporated 3 August 2023). Registered office: 16 Peverel Close, Cambridge, England, CB5 8RW.</small>
-      <small>Project work supported by Innovate UK and EPSRC.</small>
+      <small>Project work supported by Innovate UK.</small>
     </div>
   </footer>
 );

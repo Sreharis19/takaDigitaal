@@ -11,7 +11,7 @@ export const projects = [
     title: 'Quantum-enabled corrosion monitoring for transport infrastructure',
     summary:
       'Detecting early-stage corrosion in reinforced concrete with NV-diamond quantum magnetometry, before structural damage becomes visible.',
-    funding: ['Innovate UK', 'EPSRC'],
+    funding: ['Innovate UK'],
     partner: 'Bellacet Ltd — use case provider',
     poster: csure,
     challenge:

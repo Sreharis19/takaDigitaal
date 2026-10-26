@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { LuMapPin, LuPhone, LuMail } from 'react-icons/lu';
+import { LuMapPin, LuMail } from 'react-icons/lu';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('xovglgqg');
@@ -18,9 +18,6 @@ const Contact = () => {
           <ul className="contact-info">
             <li>
               <LuMapPin /> 16 Peverel Close, Cambridge, England, CB5 8RW
-            </li>
-            <li>
-              <LuPhone /> +44 7867 211695
             </li>
             <li>
               <LuMail /> <a href="mailto:hello@takadigital.co.uk">hello@takadigital.co.uk</a>

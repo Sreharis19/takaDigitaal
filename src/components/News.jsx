@@ -38,7 +38,7 @@ const News = ({ onOpen }) => (
             and AI pipeline, and the Phase 1 feasibility target of 90% detection confidence.
           </p>
           <p>
-            Delivered with support from Innovate UK and EPSRC, with Bellacet Ltd as use case provider.
+            Delivered with support from Innovate UK, with Bellacet Ltd as use case provider.
           </p>
         </div>
       </article>

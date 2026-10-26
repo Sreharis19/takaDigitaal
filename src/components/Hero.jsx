@@ -12,7 +12,7 @@ const Hero = ({ onOpen }) => (
         </h1>
         <p className="lead">
           Taka Digital builds quantum-enabled sensing and AI that detect early-stage corrosion in bridges and
-          tunnels, and process drift on the factory floor. Our work is funded by Innovate UK and EPSRC.
+          tunnels, and process drift on the factory floor. Our work is funded by Innovate UK.
         </p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary">
